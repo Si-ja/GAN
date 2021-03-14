@@ -35,7 +35,10 @@ if __name__ == "__main__":
     
     # Show the image by also transforming it to the shape the computer can work with
     # Turn off the default matplotlib axis values
-    img = gen_img.detach().clone().cpu().reshape(28, 28)
+    with torch.no_grad():
+        img = gen_img.detach().clone().cpu().reshape(28, 28)
+   
+    # Visualize the image
     plt.imshow(img, cmap=plt.cm.gray)
     plt.axis("off")
     
