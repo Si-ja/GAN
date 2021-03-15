@@ -78,14 +78,6 @@ Example of a command with which you can train the networks: `python train.py -d 
 networks for 10 epoch, with a batch size of 16 for data, learning rate of 0.0002 and
 save the models' checkpoints after each epoch ends.
 
-Development
-It is possible to generate images, as ones present in the generated examples.
-For that you need to run the `generate.py` in the main folder. Without the 
-describtion what tools are being used for this (i.e. modules) it might be more
-difficult, however, if you have PyTorch installed and matplolib, you should be
-able to work with the given approach. A more detailed set of instructions is to
-come.
-
 # How to make generated images with the network
 
 New images can be generated using the `generate.py` file. After you initiate
