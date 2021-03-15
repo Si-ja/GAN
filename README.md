@@ -140,4 +140,4 @@ to retain it for demonstration purposes.
 
 # Examples of Good and Not so Good generations
 
-![](https://raw.githubusercontent.com/Si-ja/GAN/master/generated_examples/Generated Image at 14_03_2021 17_28_24.png "Clear 5")
+![](https://github.com/Si-ja/GAN/blob/f4466dbe8551b199fc60c3bf1d98b0fa74824109/generated_examples/Generated%20Image%20at%2014_03_2021%2017_28_24.png "Clear 5")
