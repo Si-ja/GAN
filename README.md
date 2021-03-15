@@ -127,8 +127,7 @@ optional arguments:
 Therefore, you can pass a command such as `python generate.py -d cpu -m models\G_net.ckpt
 -sp "" -sn test` and  for this case in the base directory you will get an image
 called _Generated Image test.png_ processed on a cpu with the network G_net saved
-in the models folder. In my case I the image to the __generated_examples__ folder
-to retain it for demonstration purposes.
+in the models folder.
 
 # Examples of Good and Not so Good generations
 
