@@ -25,11 +25,11 @@ def activate_device(device="cuda"):
     """   
     import torch
     
-    if device == "cuda":
+    if device.lower() == "cuda":
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         return device
     
-    elif device == "cpu":
+    elif device.lower() == "cpu":
         device = "cpu"
         return device
     
